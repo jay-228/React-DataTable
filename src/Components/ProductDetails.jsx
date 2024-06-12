@@ -1,8 +1,8 @@
 
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import axios from "axios";
 import { useParams, Link } from "react-router-dom";
-import { Button, Container, Card } from 'react-bootstrap';
+import { Container, Card } from 'react-bootstrap';
 
 const ProductDetails = () => {
   const { id } = useParams();
@@ -15,16 +15,7 @@ const ProductDetails = () => {
       .catch((error) => console.error("Error fetching product:", error));
   }, [id]);
 
-  //*****************************for delete item************************************/
-  const handleDelete = () => {
-    axios
-      .delete(`http://localhost:8000/Product/${id}`)
-      .then(() => {
-        alert("Product deleted successfully!");
-        console.log(product);
-      })
-      .catch((error) => console.error("Error deleting product:", error));
-  };
+ 
 
   if (!product) {
     return <div>Loading...</div>;
@@ -42,7 +33,8 @@ const ProductDetails = () => {
           <Card.Text>{product.description}</Card.Text>
           <div className="button-group">
             <Link to={`/Editproduct/${product.id}`} className="btn btn-edit">Edit</Link>
-            <Button variant="danger" onClick={handleDelete}>Delete</Button>
+
+            <Link to={`/Deleteproduct/${product.id}`} className="btn btn-edit">Delete</Link>
           </div>
         </Card.Body>
       </Card>
