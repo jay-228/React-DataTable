@@ -1,6 +1,8 @@
+
 import axios from "axios";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import { Table, Container, Image } from 'react-bootstrap';
 
 const DeleteProduct = () => {
   const [deletedProducts, setDeletedProducts] = useState([]);
@@ -16,33 +18,35 @@ const DeleteProduct = () => {
   }, [id]);
 
   return (
-    <div>
-    
-      <h2>Deleted Products</h2>
-      <table style={{ width: "100%", borderCollapse: "collapse", marginTop: "20px", fontFamily: "Arial, sans-serif" }}>
+    <Container>
+      <h2 className="mt-4" >Deleted Products</h2>
+      <Table striped bordered hover responsive className="mt-3">
         <thead>
-          <tr style={{ backgroundColor: "#4CAF50", color: "white" }}>
-            <th style={{ border: "1px solid #ddd", padding: "8px", textAlign: "left" }}>Image</th>
-            <th style={{ border: "1px solid #ddd", padding: "8px", textAlign: "left" }}>Title</th>
-            <th style={{ border: "1px solid #ddd", padding: "8px", textAlign: "left" }}>Category</th>
-            <th style={{ border: "1px solid #ddd", padding: "8px", textAlign: "left" }}>Price</th>
-            <th style={{ border: "1px solid #ddd", padding: "8px", textAlign: "left" }}>Description</th>
+          <tr>
+            <th>Image</th>
+            <th>Title</th>
+            <th>Category</th>
+            <th>Price</th>
+            <th>Description</th>
           </tr>
         </thead>
         <tbody>
           {deletedProducts.map((product, index) => (
-            <tr key={index} style={{ backgroundColor: index % 2 === 0 ? "#f2f2f2" : "white" }}>
-              <td style={{ border: "1px solid #ddd", padding: "8px" }}><img src={product.image} alt={product.title} width={100} style={{ borderRadius: "8px" }} /></td>
-              <td style={{ border: "1px solid #ddd", padding: "8px" }}>{product.title}</td>
-              <td style={{ border: "1px solid #ddd", padding: "8px" }}>{product.category}</td>
-              <td style={{ border: "1px solid #ddd", padding: "8px" }}>${product.price}</td>
-              <td style={{ border: "1px solid #ddd", padding: "8px" }}>{product.description}</td>
+            <tr key={index}>
+              <td><Image src={product.image} alt={product.title} thumbnail width={100} /></td>
+              <td>{product.title}</td>
+              <td>{product.category}</td>
+              <td>${product.price}</td>
+              <td>{product.description}</td>
             </tr>
           ))}
         </tbody>
-      </table>
-    </div>
+      </Table>
+    </Container>
   );
 };
 
 export default DeleteProduct;
+
+
+
