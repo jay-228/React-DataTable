@@ -1,7 +1,7 @@
 
 
 import axios from 'axios';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Button, Container, Form } from 'react-bootstrap';
 
 const AddProduct = () => {
@@ -61,7 +61,7 @@ const AddProduct = () => {
         </Form.Group>
         <div className="text-center">
           <Button variant="primary" type="submit">
-            Add Product
+            Addd Prouct
           </Button>
         </div>
       </Form>

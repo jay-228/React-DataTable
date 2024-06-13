@@ -88,7 +88,7 @@ export const ProductList = () => {
                 <Card.Title>{el.category}</Card.Title>
                 <Card.Text>{el.description}</Card.Text>
                 <Card.Text><strong>${el.price}</strong></Card.Text>
-                <Link to={`/ProductDetails/${el.id}`} className="btn btn-Buy">uy Item</Link>
+                <Link to={`/ProductDetails/${el.id}`} className="btn btn-Buy">Buy Item</Link>
               </Card.Body>
             </Card>
           </Col>

@@ -104,7 +104,6 @@ const EditProduct = () => {
         </form>
       </div>
       <br />
-      {/* <h2>Edit History</h2> */}
       <table style={{border: "1px solid black", borderCollapse: "collapse",Width:"80%"}}>
         <thead>
           <tr>

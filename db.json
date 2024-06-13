@@ -52,7 +52,7 @@
       "id": 11,
       "title": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
       "price": 56.99,
-      "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure.",
+      "description": "The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure.",
       "category": "women's clothing",
       "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
       "rating": {
@@ -87,6 +87,78 @@
       "category": "perfume",
       "description": "Sauvage Perfume for men",
       "id": 21
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/715-Z-aOIhL._SX679_.jpg",
+      "title": "LEOTUDE Women Cottonblend Half Sleeve Oversized Regular Fit T-Shirts",
+      "price": "200",
+      "category": "women's clothing",
+      "description": "LEOTUDE \"A Style Of Every Story\" About the brand : We believe there is A Style For Every Story and so introduce the colourful trendy texture of fashion for all generations in an extremely fashionable wardrobe collection. Our motto is to build customer's trust by providing trending",
+      "id": 22
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/71M8AcjwbNL._SY879_.jpg",
+      "title": "LEOTUDE Half Sleeve Oversized Tshirt for Women",
+      "price": "500",
+      "category": "women's clothing",
+      "description": "This Women's Oversized Printed T-Shirt from Leotude is completely cool and comfortable and its best for daily use or for college.",
+      "id": 23
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/418XrhOZHEL._SX300_SY300_QL70_FMwebp_.jpg",
+      "title": "AGARO Royal Electric Rice Cooker,5L Ceramic Coated Inner Bowl",
+      "price": "600",
+      "category": "electronics",
+      "description": "ADVANCED FUZZY LOGIC RICE COOKER TECHNOLOGY - auto adjust temperature and timings for optimal rice cooking combined",
+      "id": 24
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/71SAYrGnadL._SY879_.jpg",
+      "title": "Lymio Men T-Shirt || T-Shirt for Men || Plain T Shirt || T-Shirt (Polo-18-21)",
+      "price": "500",
+      "category": "men s clothing",
+      "description": "Men T-Shirt || T-Shirt for Men || Plain T Shirt || T-Shirt",
+      "id": 25
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/61GmEjXOdzL._SY879_.jpg",
+      "title": "AUSK Mens T-Shirt || Polo T Shirts for Mens || Mens Tshirts",
+      "price": "200",
+      "category": "men s clothing",
+      "description": "Occasion：Can be worn both smartly and casually at work and when out and about.ating, ,business, office, friends party, holiday ,sporting,golf,sports event and etc",
+      "id": 26
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/411pUp4t0OL._SX300_SY300_QL70_FMwebp_.jpg",
+      "title": "Pigeon by Stovekraft Cruise 1800 watt Induction Cooktop",
+      "price": "1000",
+      "category": "electronics",
+      "description": "Pigeon Cruise Induction Cooktop Comes with 7 segments LED display for power and temperature",
+      "id": 27
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/71OBVZ-69WL._SY879_.jpg",
+      "title": "Ben Martin Men's Denim Cotton Oversized Loose Baggy Fit Jeans Pants for Men",
+      "price": "799",
+      "category": "men s clothing",
+      "description": "Enjoy the luxury of our baggy jeans, carefully tailored for a loose fit and crafted from high-quality denim. Experience freedom of movement with their relaxed design and stretchable fabric.",
+      "id": 28
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/51+vA2qAe9L._SX679_.jpg",
+      "title": "The Earth Store Swifther Handheld Coffee Frother Elec",
+      "price": "420",
+      "category": "electronics",
+      "description": "Best for frothing or making sherbet ,yogurt ,lassi or cold coffee or protein shake at gym or espresso cappuccino",
+      "id": 29
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/71657TiFeHL._SX679_.jpg",
+      "title": "Apple iPhone 15 (128 GB) - Black",
+      "price": "5000",
+      "category": "electronics",
+      "description": "DYNAMIC ISLAND COMES TO IPHONE 15 — Dynamic Island bubbles up alerts and Live Activit",
+      "id": 30
     }
   ]
 }
